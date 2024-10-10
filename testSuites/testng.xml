@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests"  name="Suite">
+
+<listeners>
+<listener class-name="formation.testComponents.Listeners"/>
+</listeners>
+
+    
+<test thread-count="5" name="ErrorValidations Test">
+    <classes>
+       <class name="formation.tests.ErrorValidationsTest"/>
+     </classes>
+ </test> <!-- Test -->
+  <test thread-count="5" name="LoginTestOrders Test">
+    <classes>
+       <class name="formation.tests.LoginTestOrders"/>
+     </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

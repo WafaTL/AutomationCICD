@@ -1,0 +1,11 @@
+formation\tests\LoginTestOrders.class
+formation\data\DataReader$1.class
+formation\stepDefinitions\StepDefinitionImpl.class
+cucumber\TestNGTestRunner.class
+formation\tests\ErrorValidationsTest.class
+formation\testComponents\BaseTest$1.class
+formation\testComponents\Retry.class
+formation\testComponents\BaseTest.class
+formation\tests\LoginTest.class
+formation\testComponents\Listeners.class
+formation\data\DataReader.class

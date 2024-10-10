@@ -1,0 +1,8 @@
+Formation_test\pageObjects\ConfirmationPage.class
+Formation_test\pageObjects\CartePage.class
+Formation_test\resources\ExtentReportsNG.class
+Formation_test\pageObjects\CheckoutPage.class
+Formation_test\AbstractComponents\AbstractComponent.class
+Formation_test\pageObjects\ProductCatalogue.class
+Formation_test\pageObjects\LandingPage.class
+Formation_test\pageObjects\OrderPage.class
