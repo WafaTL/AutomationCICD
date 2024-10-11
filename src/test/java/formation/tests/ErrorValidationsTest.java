@@ -18,7 +18,7 @@ public class ErrorValidationsTest extends BaseTest {
 		@Test(groups= {"ErrorHandling"},retryAnalyzer=Retry.class)
 		public void LoginErrorValidation () throws IOException{
 		landingPage.LoginApplication("wafaTlili@gmail.com", "akdlvngj");
-	    Assert.assertEquals("Incorrect email  password.", landingPage.getErrorMessage());   ;
+	    Assert.assertEquals("Incorrect email or password.", landingPage.getErrorMessage());   ;
 			System.out.println(landingPage.getErrorMessage());
 
 		}
@@ -28,7 +28,7 @@ public class ErrorValidationsTest extends BaseTest {
 			
 			ProductCatalogue productCatalogue = landingPage.LoginApplication("wafaTlili@gmail.com", "Wafatlili@30");
 			List<WebElement> products= productCatalogue.getProductList();
-			String productName="Adidas";
+			String productName="ZARA COAT 33";
 			productCatalogue.getProductByName(productName);
 			productCatalogue.addProductToCart(productName);
 			CartePage cartePage = productCatalogue.GoToCartPage(); 
